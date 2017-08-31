@@ -31,7 +31,7 @@ def build_page(textarea_content):
 				message_label + "<br>" + textarea + "<br>" + 
 				submit + "</form>")
 				
-		header = "<link href="css/styles.css" rel="stylesheet" type="text/css"/>" + "<h2>Web Caesar</h2>"
+		header = "<link href="styles.css" rel="stylesheet" type="text/css"/>" + "<h2>Web Caesar</h2>"
 		return header + form
 	
 
